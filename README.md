@@ -1,8 +1,24 @@
-# invisible-cities
-A repository containing the code and data used in the paper ""
+# Invisible Cities: A Semantic Network Analysis
 
-The invisible_cities_corpus.json file contains all the city descriptions from Le Città Invisibili, categorized by overall ID, category, category ID and chapter.
+This repository contains the code and data used in the paper "Evoking the Invisible: A semantic network analysis of concrete and abstract imagery in Calvino's Le Città Invisibili", submitted for review to the Journal of Computational Literary Studies (JCLS).
 
-The main.py file takes the JSON corpus as an input and creates a directory of CSV files storing nodes and edges of the main corpus network and of the networks of each single category. The textual preprocessing and lemma extraction, as well as the network construction strategy, is detailed in the Methodology section of the paper and in the file comments.
+## Repository Contents
 
-The network_data directory contains all edges and nodes data that were obtained and visualized via Gephi.
+### Data
+- `invisible_cities_corpus.json`: Contains all city descriptions from Le Città Invisibili, organized by:
+  - Overall ID
+  - Category
+  - Category ID
+  - Chapter
+
+### Code
+- `main.py`: Processes the JSON corpus and generates CSV files containing nodes and edges for:
+  - The main corpus network
+  - Individual category networks
+  
+The textual preprocessing, lemma extraction, and network construction methodology are detailed in:
+- The paper's Methodology section
+- Code comments within `main.py`
+
+### Output
+- `network_data/`: Directory containing all edges and nodes data visualized using Gephi
