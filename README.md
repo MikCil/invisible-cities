@@ -5,11 +5,7 @@ This repository contains the code and data used in the paper "Evoking the Invisi
 ## Repository Contents
 
 ### Data
-- `invisible_cities_corpus.json`: Contains all city descriptions from Le Città Invisibili, organized by:
-  - Overall ID
-  - Category
-  - Category ID
-  - Chapter
+For copyright reasons, it is not possible to share the dataset containing all city descriptions from Le Città Invisibili, organized by overall ID, Category, Category ID and Chapter. However, all network data is stored in the directory `network_data/`.
 
 ### Code
 - `main.py`: Processes the JSON corpus and generates CSV files containing nodes and edges for:
