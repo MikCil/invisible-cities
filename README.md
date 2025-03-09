@@ -5,7 +5,8 @@ This repository contains the code and data used in the paper "Evoking the Invisi
 ## Repository Contents
 
 ### Data
-For copyright reasons, it is not possible to share the dataset containing all city descriptions from Le Città Invisibili, organized by overall ID, Category, Category ID and Chapter. However, all network data is stored in the directory `network_data/`.
+For copyright reasons, it is not possible to share the dataset containing all city descriptions from Le Città Invisibili, organized by overall ID, Category, Category ID and Chapter. A private version of the dataset is stored on Zenodo: https://doi.org/10.5281/zenodo.14995918 (warning: contains author information)
+All network data is freely accessible and stored in the directory `network_data/`.
 
 ### Code
 - `main.py`: Processes the JSON corpus and generates CSV files containing nodes and edges for:
